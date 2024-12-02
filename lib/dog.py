@@ -10,6 +10,7 @@ APPROVED_BREEDS = [
     "Pug",
     "Pointer"
 ]
+
 class Dog:
     def __init__(self,name="Daisy",breed="Chihuahua"):
         self.name = name
@@ -43,3 +44,6 @@ class Dog:
     
 dog=Dog("Daisy", "Pug")
 dog.breed
+dog.set_breed("Pointer")
+
+
